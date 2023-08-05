@@ -1,0 +1,64 @@
+body{
+    background-color: lightgoldenrodyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+header{
+    background-color: azure;
+    padding: 20px;
+    margin: 10px;
+}
+nav{
+    text-align: center;
+    padding: 5px;
+    background-color: aquamarine;
+    margin: 0px; 
+    box-shadow: 1px 1px 1px black;  
+}
+nav > a{
+    padding: 100px;
+    text-decoration: none;
+    color: blue;
+}
+nav > a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+main{
+    background-color: rgb(165, 165, 164);
+    margin: 10px;
+    padding: 5px;
+    border:1px solid black;
+}
+article{
+    color: brown;
+
+}
+aside{
+    color: black;
+    font-size: small;
+    text-align: end
+}
+section{
+    font-weight: bold;
+    color: rgb(0, 253, 169);
+}
+footer{
+    margin: 2px;
+    padding: 3px;
+    background-color: rgb(6, 6, 240);
+    color: white;
+    text-align: center;
+}
+footer > p > a{
+    color: aqua;
+    text-decoration: none;
+}
+footer > p > a:hover{
+    font-weight: bolder;
+    color: aquamarine;
+}
+
+footer > p{
+    margin: 0px;
+}

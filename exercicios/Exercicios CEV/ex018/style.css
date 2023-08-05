@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'varsity' ;
+    src: url('fonts/04B_30__.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+Tipos de format:
+-opentype(otf)
+-truetype(ttf)
+-embedded-opentype
+-truetype-aat(Apple Advanced Tipography)
+-svg
+*/
+
+
+body{
+    font-family: 'Foldit', cursive; 
+    background-color: rgb(250, 247, 246);
+}
+h1{
+    font-family: 'varsity';
+    font-size: 3em;
+    color: darkblue
+}
+h2{
+    font-size: 2em;
+    font-weight: bolder; 
+    color: darkblue;
+}
+p{
+  font-size: 1.5em;
+}
